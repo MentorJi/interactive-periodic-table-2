@@ -6,7 +6,7 @@ export default function Header() {
     <header className='header'>
       <div className='wrap header__wrap'>
         <h1 className='header__logo'>
-          <a href='/'>{SITE_TITLE}</a>
+        <a href='/'>{SITE_TITLE}</a>
         </h1>
         <span className='header__text u-flex'>
           <a href={GITHUB_REPO} target='_blank'>
