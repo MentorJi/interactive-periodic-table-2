@@ -13,7 +13,6 @@ export default function App() {
     setShowInfo(true)
     setElement(data[num])
   }
-
   const handlecloseInfo = () => {
     setShowInfo(false)
   }
