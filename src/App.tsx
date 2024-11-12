@@ -16,7 +16,6 @@ export default function App() {
   const handlecloseInfo = () => {
     setShowInfo(false)
   }
-
   const populateElements = (start: number, end: number) => {
     const items = []
     for (let i = start; i <= end; i++) {
